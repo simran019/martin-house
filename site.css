@@ -1,0 +1,525 @@
+body
+{
+    margin:0px;
+}
+.container-1
+{
+    width:100%;
+    height:40px;
+    background-color:lightcyan;
+    display:flex;
+    justify-content: space-between;
+}
+.left-container
+{
+   width:150px;
+}
+.left-container i
+{
+   color:slategrey;
+}
+.left-container i:hover
+{
+    color:#e62b1e
+}
+.right-container
+{
+   width:400px;
+    font-family: 'Open Sans',sans-serif;
+   color:slategrey;
+}
+.right-container div:hover
+{
+   color:#e62b1e;
+}
+.container-1 div
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center ;
+
+    font-size: 15px;
+    font-weight: 800;
+}
+/* ---------------------------------------------------- */
+.container-2
+{
+    width:100%;
+    height:100px;
+    /* background-color: pink; */
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size:20px;
+    font-weight: 700;
+}
+.container-2 div
+{
+    display:flex;
+    justify-content: space-between;
+}
+.cont-2-1
+{
+    width:100px;
+    height:auto;
+
+    margin-left:30px;
+
+}
+.cont-2-2
+{
+    width:500px;
+    height:auto;
+    font-weight: 600;
+    font-family: 'Open Sans',sans-serif;
+    /* background-color: tomato; */
+}
+.cont-2-3 
+{
+    background-color: #e62b1e;
+    border-radius: 50px;
+    padding:15px;
+    font-family: 'Open Sans',sans-serif;
+    margin-right: 30px;
+    
+    
+}
+.cont-2-3 a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.cont-2-2 div
+{
+    color:#676767;
+
+    /* background-color: tomato; */
+}
+/* ---------------------------------------------------------- */
+.container-3
+{
+    width:100%;
+    height:450px;
+
+    background-color: #353535;
+    
+}
+.cont-3-2
+{
+    width:400px;
+    height:200px;
+
+    background-color: transparent;
+    position: absolute;
+    top:30%;
+    left:35%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cont3-inside-1
+{
+    color:#fff;
+    font-weight: 900;
+    font-size:45px;
+}
+.cont3-inside-2
+{
+    background-color: #e62b1e;
+    border-radius: 50px;
+    padding:15px;
+    font-family: 'Open Sans',sans-serif;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Open Sans',sans-serif;
+}
+/* ------------------------------------------------- */
+.container-4
+{
+    width:80%;
+    height:250px;
+
+    background-color: white;
+
+   
+    position:relative;
+    top:5%;
+    left:10%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container-4 div
+{
+    width: 380px;
+    height:210px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:0px;
+
+    color:#fff;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+
+    
+    /* background-color: blue; */
+    
+}
+.container-4 div:hover
+{
+    opacity:0.7;
+    background-color:red;
+}
+.cont-4-1
+{
+   
+    background-image: url('https://martinhouse.org/wp-content/uploads/2021/02/cta1.jpg');
+    background-size: cover;
+    /* background:rgba(63, 62, 63, 0.4) */
+}
+.cont-4-2
+{
+    background-image: url('https://martinhouse.org/wp-content/uploads/2021/02/cta2.jpg');
+    background-size: cover;
+}
+.cont-4-3
+{
+    background-image: url('https://martinhouse.org/wp-content/uploads/2021/02/cta4.jpg');
+    background-size: cover;
+}
+.container-5
+{
+    width:100%;
+    height:500px;
+background-color: transparent;
+
+margin-top: 60px;
+    /* background-color: yellow; */
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content:center;
+    color:#353535;
+}
+.container-5 div
+{
+    width:50%;
+    margin-left:150px;
+    
+}
+.container-6
+{
+    width:100%;
+    height:650px;
+    background-image: url('./images/Art-glass-verandah-doors-and-skylights-Digati.jpg');
+    background-size: cover;
+
+    display:flex;
+    flex-direction: row-reverse;
+    align-items:center;
+}
+/* .container-7
+{
+    width:50%;
+    height:200px;
+    background-color: white;
+
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    
+} */
+
+.container-7
+{
+    width:40%;
+    height:500px;
+
+    margin-right:50px;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: left;
+    color:#353535; 
+}
+.container-7 div
+{
+    margin-left: 70px;
+}
+.cont-7-3
+{
+    width:300px;
+    font-size:25px;
+}
+.cont-7-4
+{
+    width:400px;
+    background-color: transparent;
+    display:flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    gap:10px;
+}
+.cont-7-4 div
+{
+  
+
+   padding:10px;
+   border-radius: 50px;
+
+   margin-left:0px;
+   display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+   
+    font-size: 15px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight:bold;
+
+    color:#fff;
+}
+.tour-button
+{
+    background-color: #e62b1e;
+    padding:15px;
+    cursor:pointer;
+}
+.student-programs
+{
+    background-color: #353535;
+    cursor:pointer;
+}
+.video
+{
+    visibility: visible;
+    width: 1131px;
+    height: 380px;
+    opacity: 1;
+}
+.container-8
+{
+    width:100%;
+    height:650px;
+    /* background-color: aqua; */
+    /* background-image: url('./images/Art-glass-verandah-doors-and-skylights-Digati.jpg');
+    background-size: cover; */
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.middle-8
+{
+    width:90%;
+    height:600px;
+    /* background-color: yellow; */
+    display:flex;
+    gap:0px;
+}
+.middle-8-2
+{
+    width:1100px;
+    height:auto;
+    /* background-color: burlywood; */
+
+    background-image: url('./images/about-image.jpg');
+    background-size: cover;
+}
+.container-9
+{
+    width:800px;
+    height:600px;
+
+    margin-right:50px;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: left;
+    color:#353535; 
+    gap:0px;
+}
+.container-9 div
+{
+    margin-left: 70px;
+}
+.cont-9-3
+{
+    width:300px;
+    font-size:25px;
+}
+.cont-9-4
+{
+    width:400px;
+    background-color: transparent;
+    display:flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    gap:10px;
+}
+.cont-9-4 div
+{
+  
+
+   padding:10px;
+   border-radius: 50px;
+
+   margin-left:0px;
+   display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+   
+    font-size: 15px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight:bold;
+
+    color:#fff;
+}
+.tour-button
+{
+    background-color: #e62b1e;
+    padding:15px;
+}
+.student-programs
+{
+    background-color: grey;
+}
+.container-10
+{
+    width:100%;
+    height:350px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.container-11
+{
+    width:100%;
+    height:350px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.container-10-1
+{
+    width:40%;
+    height:400px;
+
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-10-1 div
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-10-2
+{
+    width:80%;
+    height:300px;
+
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-10-2 div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.become-a-member-1
+{
+    width:400px;
+}
+.become-a-member-1 p
+{
+    font-size: 20px;
+    text-align: center;
+}
+.make-a-gift-1 p
+{
+    font-size: 20px;
+    text-align: center;
+}
+.make-a-gift-1
+{
+    width:400px;
+}
+.become-a-member
+{
+    width:50%;
+    height:300px; 
+
+    background-color: #353535;
+}
+
+.container-10-2 div 
+{
+    color:white;
+}
+.make-a-gift
+{
+    width:50%;
+    height:300px; 
+
+    background-color: #e62b1e;
+  
+}
+.become-member-button
+{
+background-color: transparent;
+padding:10px;
+border-radius: 50px;
+border:2px solid white;
+color:white;
+font-weight: bold;
+padding:15px;
+}
+.make-gift-button
+{
+    background-color:transparent;
+    padding:10px;
+    border-radius: 50px;
+    padding:15px;
+    border:2px solid white;
+    color:white;
+font-weight: bold;
+}
+.bold-heading h1
+{
+font-size: 40px;
+color:#353535;
+}
+.paragraph-light p
+{
+font-size: 20px;
+color:#353535;
+text-align: center;
+}
